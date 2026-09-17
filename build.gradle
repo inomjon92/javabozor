@@ -1,17 +1,7 @@
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
     dependencies {
+        // Android Gradle plaginini internetdan yuklash
         classpath 'com.android.tools.build:gradle:8.2.2'
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
     }
 }
 
