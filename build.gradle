@@ -1,10 +1,2 @@
-buildscript {
-    dependencies {
-        // Android Gradle plaginini internetdan yuklash
-        classpath 'com.android.tools.build:gradle:8.2.2'
-    }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '8.2'
-}
+// Bu fayl endi bo'sh, hamma narsa settings.gradle ichiga ko'chdi
+plugins { }
